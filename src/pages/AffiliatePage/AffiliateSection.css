@@ -1,0 +1,16 @@
+.affHeader {
+    padding: 20px;
+}
+
+.text {
+    /* border: 3px solid black; */
+    max-height: 370px;
+    font-size: 13px;
+}
+
+
+@media (max-width: 576px) {
+    .img-fluid {
+        max-width: 300px;
+    }
+}

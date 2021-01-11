@@ -1,0 +1,33 @@
+img {
+  float: left;
+  margin-right: 15px;
+  border: solid black 1px;
+  padding: 2px;
+}
+
+h3 {
+  margin-top: 8px;
+}
+
+span {
+  font-size: 12px;
+}
+
+.block {
+  min-width: 700px;
+}
+
+button {
+  background-color: #ffad07;
+
+}
+
+@media (max-width: 576px) {
+  .imgText {
+    max-width: 300px;
+  }
+
+  .img {
+    display: flex;
+  }
+}
